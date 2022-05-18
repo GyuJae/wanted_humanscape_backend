@@ -1,8 +1,8 @@
-import { dieaseData } from "./data";
+import { dieaseData } from "../data";
 import express, { Application, Request, Response } from "express";
 import dotenv from "dotenv";
 import cors from "cors";
-import { createFuzzyMatcher } from "./utils";
+import { createFuzzyMatcher } from "../utils";
 
 dotenv.config();
 
