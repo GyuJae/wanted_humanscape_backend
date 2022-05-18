@@ -1,0 +1,7 @@
+http://localhost:4000
+
+### searchText
+http://localhost:4000?searchText=A
+
+### fuzzy searchText
+http://localhost:4000?searchText=ㅂㅇㄹㅅ
