@@ -19,6 +19,7 @@ app.get("/", async (req: Request, res: Response): Promise<Response> => {
       return res.json({
         ok: false,
         error: "검색어를 입력해주세요.",
+        result: [],
       });
     }
 
