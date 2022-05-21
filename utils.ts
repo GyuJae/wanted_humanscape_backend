@@ -50,5 +50,5 @@ function ch2pattern(ch: string) {
 
 export function createFuzzyMatcher(input: string) {
   const pattern = input.split("").map(ch2pattern).join(".*?");
-  return new RegExp(pattern, "g");
+  return new RegExp(pattern, "gi");
 }

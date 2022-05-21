@@ -4,4 +4,4 @@ http://localhost:4000
 http://localhost:4000?searchText=암
 
 ### fuzzy searchText
-http://localhost:4000?searchText=ㅇㄷㅇ
+http://localhost:4000?searchText=A
